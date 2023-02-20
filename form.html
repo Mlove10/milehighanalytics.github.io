@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--form.html--> 
+<!--contact page html design to connect contact information to my business email--> 
+
+<article id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to learn more about our services? <b>Schedule a free 15 minute consultation to discuss your data challenges <a href="https://calendly.com/milehighanalytics">here</a>!</b></p>
+    <form method="post" action="send-email.php">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+    <p>Alternatively, you can email us directly at <a href="mailto:machineloveco@gmail.com">machineloveco@gmail.com</a>.</p>
+</article>
